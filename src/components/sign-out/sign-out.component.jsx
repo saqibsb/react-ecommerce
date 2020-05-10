@@ -54,7 +54,7 @@ class SignOut extends Component {
                      name='dislpalyName'
                       value={dislpalyName}
                        onChange={this.handleChange}
-                      required
+                       required
                         label='Display Name'
                       />
                  <FormInput
