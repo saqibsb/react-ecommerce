@@ -11,7 +11,6 @@ const CartIcon = ({toggleCartHidden}) => {
             <span className='item-count'>0</span>
         </div>
      );
-
 }
 const mapDispatchToProps=dispatch=>({
     toggleCartHidden:()=>dispatch(toggleCartHidden())
